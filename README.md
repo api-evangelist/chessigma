@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Chessigma is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://www.chessigma.com
+Chessigma provides a free, no‑auth API for chess game analysis and daily puzzles. Users can submit PGN games, retrieve engine analysis, calculate rating changes, and access training puzzles without signup or rate‑limited keys. The platform runs Stockfish in the browser, offering compute‑free, unlimited analysis for Chess.com, Lichess and uploaded PGN files.
+
+**Areas:** Company · Chess · Free · No Auth
+
+## Chessigma on APIs.io
+
+Everything profiled for Chessigma is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/chessigma/](https://apis.io/providers/chessigma/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Chessigma Daily Puzzle API](https://apis.io/apis/chessigma/chessigma-daily-puzzle-api/) — The Daily Puzzle API from Chessigma — 1 operation(s) for daily puzzle.
+- [Chessigma Elo Calculator API](https://apis.io/apis/chessigma/chessigma-elo-calculator-api/) — The Elo Calculator API from Chessigma — 1 operation(s) for elo calculator.
+- [Chessigma Game API](https://apis.io/apis/chessigma/chessigma-game-api/) — The Game API from Chessigma — 2 operation(s) for game.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Chessigma Agentic Access](https://apis.io/agentic-access/chessigma/chessigma-agentic-access/)
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [DailyPuzzle](https://apis.io/schemas/chessigma/chessigma-daily-puzzle/)
+- [EloResponse](https://apis.io/schemas/chessigma/chessigma-elo-response/)
+- [GameAnalysisResponse](https://apis.io/schemas/chessigma/chessigma-game-analysis-response/)
+- [GameSubmission](https://apis.io/schemas/chessigma/chessigma-game-submission/)
+- [GameSubmissionResponse](https://apis.io/schemas/chessigma/chessigma-game-submission-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Chessigma Context](https://apis.io/jsonld/chessigma/chessigma-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Chessigma API Rules](https://apis.io/rules/chessigma/chessigma-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Chessigma Domain Security](https://apis.io/security/chessigma/chessigma-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Chessigma Plans Pricing](https://apis.io/plans/chessigma/chessigma-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.chessigma.com)
+- [Documentation](https://www.chessigma.com/developers)
+- [Pricing](https://www.chessigma.com/pricing)
+- [Support](https://www.chessigma.com/contact)
+- [Blog](https://www.chessigma.com/blog)
+- [Terms of service](https://www.chessigma.com/tos)
+- [Privacy policy](https://www.chessigma.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 44.1** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 63.4 |
+| Contract governance | 35.6 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 25.6 |
+| Access clarity | 63.2 |
+
+**Agent readiness 30.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/chessigma/](https://apis.io/providers/chessigma/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Chessigma: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/chessigma/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
